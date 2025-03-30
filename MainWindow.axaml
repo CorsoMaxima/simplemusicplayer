@@ -1,0 +1,28 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="500" d:DesignHeight="250"
+        x:Class="Simple_Music_Player.MainWindow"
+        Title="Simple Music Player">
+<ContentControl>
+
+<TextBlock VerticalAlignment="Top">Current Music List</TextBlock>
+
+</ContentControl>
+
+<StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom" Spacing="5">
+    <TextBlock>00:00</TextBlock>
+    <Button>
+        Play
+    </Button>
+    <Button>
+        Pause
+    </Button>
+    <Button>
+        Stop
+    </Button>
+    <TextBlock>00:00</TextBlock>
+</StackPanel>
+
+</Window>
